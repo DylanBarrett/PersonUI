@@ -58,10 +58,10 @@
                                     <segment title="Male"/>
                                 </segments>
                             </segmentedControl>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="kGK-lH-a2d">
-                                <rect key="frame" x="16" y="173" width="343" height="224"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="iNu-00-Ie1">
+                                <rect key="frame" x="16" y="151.5" width="343" height="515.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -73,21 +73,21 @@
                             <constraint firstItem="nM9-Zl-h7p" firstAttribute="centerY" secondItem="nvf-Ov-iwu" secondAttribute="centerY" id="5tE-dZ-9rO"/>
                             <constraint firstItem="LBl-cO-dC5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="17" id="9Rh-Fp-XOF"/>
                             <constraint firstItem="D2f-7X-eyD" firstAttribute="leading" secondItem="qOL-f4-BwF" secondAttribute="trailing" constant="10" id="BAX-P6-71y"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="iNu-00-Ie1" secondAttribute="bottom" id="CdG-xq-14c"/>
                             <constraint firstItem="nvf-Ov-iwu" firstAttribute="top" secondItem="LBl-cO-dC5" secondAttribute="bottom" constant="20" id="EHy-bF-uqC"/>
                             <constraint firstItem="qOL-f4-BwF" firstAttribute="top" secondItem="nvf-Ov-iwu" secondAttribute="bottom" constant="20" id="EU5-y2-Pqe"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="kGK-lH-a2d" secondAttribute="bottom" id="SXc-F7-zR7"/>
-                            <constraint firstItem="kGK-lH-a2d" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="TkU-cD-7ew"/>
+                            <constraint firstItem="iNu-00-Ie1" firstAttribute="top" secondItem="D2f-7X-eyD" secondAttribute="bottom" constant="15" id="Ls5-GV-PAp"/>
+                            <constraint firstItem="iNu-00-Ie1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="NBt-k7-e3L"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="iNu-00-Ie1" secondAttribute="trailing" id="TcR-OZ-PjM"/>
                             <constraint firstItem="LBl-cO-dC5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="WEA-W8-c1Q"/>
                             <constraint firstAttribute="trailingMargin" secondItem="l7R-tD-cdR" secondAttribute="trailing" id="abv-ob-hdr"/>
                             <constraint firstItem="nM9-Zl-h7p" firstAttribute="leading" secondItem="Ohb-mS-f5n" secondAttribute="trailing" constant="10" id="bgv-Sc-psk"/>
                             <constraint firstAttribute="trailingMargin" secondItem="nM9-Zl-h7p" secondAttribute="trailing" id="e7h-o4-DeV"/>
                             <constraint firstItem="l7R-tD-cdR" firstAttribute="leading" secondItem="LBl-cO-dC5" secondAttribute="trailing" constant="10" id="efY-Kj-C9x"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="kGK-lH-a2d" secondAttribute="trailing" id="gFP-0U-F1g"/>
                             <constraint firstItem="l7R-tD-cdR" firstAttribute="centerY" secondItem="LBl-cO-dC5" secondAttribute="centerY" id="kuQ-BI-G9V"/>
                             <constraint firstItem="Ohb-mS-f5n" firstAttribute="leading" secondItem="nvf-Ov-iwu" secondAttribute="trailing" constant="10" id="nGp-rG-cL6"/>
                             <constraint firstItem="Ohb-mS-f5n" firstAttribute="centerY" secondItem="nvf-Ov-iwu" secondAttribute="centerY" id="nO9-xq-WK8"/>
                             <constraint firstItem="D2f-7X-eyD" firstAttribute="centerY" secondItem="qOL-f4-BwF" secondAttribute="centerY" id="rN6-D8-61S"/>
-                            <constraint firstItem="kGK-lH-a2d" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="sHU-t5-M2q"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
